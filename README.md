@@ -18,7 +18,7 @@ var jsoneditor = require("jsoneditor");
 var editor = new jsoneditor($domobject);
 ```
 
-Options are more information on the API can be found on the 
+Options or more information on the API can be found on the 
 jsoneditor website: http://jsoneditoronline.org/.
 
 
