@@ -1,0 +1,26 @@
+{
+    "name": "@MODULENAME@",
+    "version": "@VERSION@-kanso.1",
+    "categories": ["utils"],
+    "maintainers": [
+        {
+            "name": "Michael Marino",
+            "url": "https://github.com/mgmarino"
+        }
+    ],
+    "url": "@URL@",
+    "modules": "@MODULENAME@.js",
+    "modules_attachment": false,
+    "attachments" : ["css"],
+    "ace" : { 
+      "mode" : ["json"],
+      "ext" : ["searchbox"],
+      "worker" : ["json"]
+    }, 
+    "dependencies": {
+        "modules": null,
+        "attachments": null,
+        "ace" : "1.1.4-kanso.1"
+    },
+    "description": "jsoneditor provides a javascript-based json editor with syntax highlighting.  This is partially based upon ace"
+}
